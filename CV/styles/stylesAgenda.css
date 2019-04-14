@@ -1,0 +1,65 @@
+@import url('stylesAgenda.css');
+
+  #agenda thead {
+    background-color : #4075A4 ;
+    font :bold ;
+    color: white ;
+  }
+
+  #agenda{
+    background-color: black ;
+  }
+
+  table {
+    border-collapse: collapse ;
+  }
+
+  #agenda th, tr, td{
+			border: solid 2pt black;
+			padding: 0.5ex;
+		}
+
+  td.horaire {
+    color : black ;
+    background-color: cyan ;
+  }
+
+  td.vide {
+    background-color: grey ;
+  }
+
+  td.Anglais {
+    background-color: orange ;
+  }
+
+  td.Reseaux {
+    background-color: purple ;
+  }
+
+  td.bd {
+    background-color: pink ;
+  }
+
+  td.Algo{
+    background-color: yellow ;
+  }
+
+  td.prog{
+    background-color: green ;
+  }
+
+  td.Genie{
+    background-color: magenta ;
+  }
+
+  td.System{
+    background-color: red ;
+  }
+
+  td.tech{
+    background-color: gold ;
+  }
+
+  td.sport {
+    background-color: silver ;
+  }

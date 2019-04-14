@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="styles/stylesAgenda.css">
+  <link rel="stylesheet" href="styles/stylesCommuns.css">
+  <link rel="stylesheet" href="styles/stylesCV.css">
+  <title>Agenda</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Mon site personnel</h1>
+      <h2>Agenda de la semaine</h2>
+    </header>
+    <!-- le menu de navigation -->
+    <nav>
+      <ul>
+	    <li><a href="index.html" id="encours">Accueil</a></li>
+	    <li><a href="cv.html" id="encours">Mon CV</a></li>
+	    <li><a href="agenda.html" id="encours">Agenda</a></li>
+	    <li><a href="photos.html" id="encours">Photos</a></li>
+      </ul>
+    </nav>
+    <!-- le contenu de la page -->
+    <section id="contenu">
+      <table id="agenda">
+	    <thead>
+	      <tr>
+	        <th>Horaires</th>
+	        <th>Lundi</th>
+	        <th>Mardi</th>
+	        <th>Mercredi</th>
+	        <th>Jeudi</th>
+	        <th>Vendredi</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td class="horaire">8h-10h</td>
+	        <td class="Anglais">Anglais</td>
+	        <td class ="vide"></td>
+	        <td class="bd">Bases de données</td>
+	        <td class="tech" rowspan="2">Technologies du Web</td>
+	        <td class="prog" rowspan="2">Programmation</td>
+	      </tr>
+	      <tr>
+	        <td class="horaire">10h-12h</td>
+	        <td class="Reseaux">Réseaux</td>
+	        <td class="Algo">Algorithmique</td>
+	        <td class="Genie">Génie Logiciel</td>
+	      </tr>
+	      <tr>
+	        <td colspan="6"></td>
+	      </tr>
+	      <tr>
+	        <td class="horaire">13h-15h</td>
+	        <td class="bd" rowspan="2">Bases de données</td>
+	        <td class="prog" rowspan="2">Programmation</td>
+	        <td class="System">Systèmes</td>
+	        <td class="sport" rowspan="2">Sport</td>
+	        <td class="Anglais">Anglais</td>
+	      </tr>
+	      <tr>
+	        <td class="horaire">15h-17h</td>
+	        <td class="vide"></td>
+	        <td class="vide"></td>
+	      </tr>
+	    </tbody>
+
+      </table id="legende">
+      <table>
+	    <tbody>
+        <br>
+	      <tr>
+	        <td class="Algo">
+	        <td>Algorithmique</td>
+	        <td class="Genie"></td>
+	        <td>Génie Logiciel</td>
+	        <td class="sport"></td>
+	        <td>Sport</td>
+	      </tr>
+	      <tr>
+	        <td class="Anglais"></td>
+	        <td>Anglais</td>
+	        <td class="prog"></td>
+	        <td>Programmation</td>
+	        <td class="System"></td>
+	        <td>Systèmes</td>
+	      </tr>
+	      <tr>
+	        <td class="bd"></td>
+	        <td>Bases de données</td>
+	        <td class="Reseaux"></td>
+	        <td>Réseaux</td>
+	        <td class="tech"></td>
+	        <td>Technologies du Web</td>
+	      </tr>
+	    </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>

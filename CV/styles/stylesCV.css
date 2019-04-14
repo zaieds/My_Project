@@ -1,0 +1,26 @@
+@import url('stylesCV.css');
+
+section h2 {
+  background-color: #66FFFF;
+  margin-bottom: 10px ;
+  clear: both;
+}
+
+img {
+  float: left;
+  margin-right: 10px ;
+  margin-bottom: 10px ;
+}
+
+dt{
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 15px ;
+  margin-left: 15px ;
+}
+
+span.date  {
+  float: right;
+}
